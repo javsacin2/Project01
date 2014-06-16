@@ -6,8 +6,8 @@ main()
 	int vector[10], elemento;
    bool ban = false;
 
-   cout<<"Ingrese los elementos del vector: ";
-   for (int i = 0; i < 10; i++)
+   cout<<"Ingrese los elementos del vector principal: ";
+   for (int i = 0; i < 5; i++)
    {
    	cin>>vector[i];
    }
@@ -15,7 +15,7 @@ main()
    cout<<"Ingrese el elemento a buscar:\n";
    cin>>elemento;
 
-   for (int i = 0; i < 10; i++)
+   for (int i = 0; i < 5; i++)
    {
    	if (elemento == vector[i])
       {
