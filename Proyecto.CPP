@@ -25,11 +25,11 @@ main()
 
    if (ban == true)
    {
-   	cout<<"Elemento encontrado\n";
+   	cout<<"El elemento ha sido encontrado\n";
    }
    else
    {
-   	cout<<"Elemento no encontrado\n";
+   	cout<<"Elemento no ha sido encontrado\n";
    }
 
    getch();
